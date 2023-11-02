@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>bolbolbolbololol</title>
+
+<head>
+
+	<style>
+	
+	.button {
+		background-color: #fc9cff;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		font-size: 16px;
+		margin: 4px 2px;
+	}
+	</style>
+
+	<script>
+
+	function msg() {
+	
+		const element=document.getElementById("removethis");
+		element.remove();
+	
+		document.getElementById("trollface").src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png";
+		document.getElementById("trollface").alt="you missed the surprise...";
+		document.getElementById("trollface").style="width:1388px;height:1152px;";
+
+		trololo = document.getElementById("myAudio"); 
+		trololo.play();
+	}
+	
+	</script>
+
+</head>
+
+<body style="background-color:black;"><center>
+
+	<audio id="myAudio">
+		<source src="https://www.myinstants.com/media/sounds/trollolol.swf.mp3" type="audio/mp3">
+	</audio>
+
+<img id="trollface">
+
+<button onclick="msg(), playAudio()" id="removethis" class="button">click for trollface</button>
+
+</center></body>
+
+</html>
